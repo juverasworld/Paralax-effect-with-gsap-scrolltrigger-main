@@ -2,7 +2,7 @@
 /****************************************************/
 :root {
 	--pr-color: #fff;
-	--second-color: #0a0a0a;
+	--second-color: #d47e05;
 	--cubicbz: cubic-bezier(.9, 0, .1, 1);
 	--fz-big: 60px;
 }
@@ -29,7 +29,7 @@ nav a {
 }
 
 .vee {
-    font-family: 'Eater', cursive;
+    font-family: 'syne', cursive;
     font-size: 2vw;
 
 }
