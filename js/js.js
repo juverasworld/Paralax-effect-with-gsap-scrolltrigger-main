@@ -25,6 +25,14 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 
+	ScrollTrigger.create({
+		trigger: ".container",
+		start: "top top",
+		end: "bottom top",
+		pin: true,
+		pinSpacing: false,
+		scrub: true,
+	  });
 
 	
 	const tl = gsap.timeline({

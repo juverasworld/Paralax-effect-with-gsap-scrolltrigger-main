@@ -17,7 +17,7 @@
 }
 
 body {
-	/* background: var(--second-color); */
+	background: var(--second-color);
 }
 
 
@@ -62,7 +62,7 @@ nav {
 }
 
 .nav-row {
-    padding: 40px 60px;
+    /* padding: 40px 60px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,7 +220,7 @@ section {
 	width: 100%;
 	height: auto;
 	overflow: hidden;
-	z-index: -1;
+	z-index: 1;
 }
 
 .content {
@@ -243,6 +243,7 @@ section {
 	width: 100%;
 	height: 100vh;
 	z-index: -8;
+	background-color: #d47e0560;
 }
 
 .header__marq {
@@ -812,8 +813,6 @@ text-align: center;
     left: 0;
     width: 100vw;
     height: 100vh;
-	z-index: 99;
-
     /* overflow: hidden; */
 }
 
@@ -821,7 +820,6 @@ text-align: center;
     width: 100%;
     height: 100%;
     object-fit: cover;
-	z-index: 99;
 
 }
 
